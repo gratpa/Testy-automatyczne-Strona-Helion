@@ -1,0 +1,36 @@
+{
+  "name": "automation-helion",
+  "version": "1.0.0",
+  "description": "Automation test for helion page.",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "wdio wdio.conf.ts --suite e2e",
+    "debug": "wdio wdio.conf.ts --suite e2e"
+  },
+  "keywords": [
+    "automation",
+    "webdriverio",
+    "famework",
+    "helion",
+    "typescript"
+  ],
+  "author": "Patrycja Gratkowska",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@wdio/cli": "^8.10.1",
+    "allure-commandline": "^2.22.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.10.2",
+    "@wdio/devtools-service": "^8.10.1",
+    "@wdio/local-runner": "^8.10.1",
+    "@wdio/mocha-framework": "^8.10.1",
+    "@wdio/spec-reporter": "^8.10.1",
+    "chromedriver": "^113.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
